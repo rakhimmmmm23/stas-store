@@ -360,3 +360,7 @@ footer {
     cursor: pointer;
     margin-left: 20px;
 }
+
+.jackets-flex-wrapper {
+    display: block;
+}
