@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-imgs img {
+    width: 25px;
+    height: 25px;
+}
+
+.gid {
+    color: #000;
+    display: block;
+}
+
+.bed {
+    min-height: 405px;
+}
+
+.nav-logo {
+    margin-right: 80px;
+}
+
+.nav-links {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    width: 135px;
+}
+
+.nav-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-imgs img {
+    margin-left: 25px;
+}
+
+.background {
+    margin-top: 15px;
+    background-image: url(/img/index/backgorund.png);
+    background-position: left top;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+
+.background-container {
+    max-width: 95%;
+    margin: auto;
+}
+
+.background-title {
+    padding-top: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    width: 763px;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+.background-btn {
+    width: 246px;
+    background: #b9934c;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(border-radius.htc);
+    height: 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.sales {
+    margin-top: 50px;
+}
+
+.sales-container {}
+
+.clothes-flex {
+    display: flex;
+    align-items: center;
+}
+
+.sales-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sales-text-p1 {
+    margin-right: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.sales-text-p2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #a5a5a5;
+}
+
+.clothes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clothes img {
+    max-width: 242px;
+    max-height: 352px;
+    margin: auto;
+}
+
+.clothes-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.clothes-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.bed {
+    margin-top: 50px;
+    background-image: url(/img/index/bed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    background-size: cover;
+}
+
+.bed-container {
+    width: 95%;
+    margin: auto;
+}
+
+.bed-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.bed-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    width: 763px;
+}
+
+.popular {
+    margin-top: 50px;
+}
+
+.popular-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+.popular-container {
+    margin: auto;
+}
+
+.popular-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.popular-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-card img {
+    width: 191px;
+    margin: auto;
+    height: 268px;
+}
+
+.popular-card-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.popular-card-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.jackets {
+    margin-top: 30px;
+}
+
+.jackets-container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.jackets-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.jackets-p1 {
+    background-image: url(/img/index/jackets.png);
+    width: 400px;
+    height: 556px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.jackets-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    padding-top: 200px;
+    padding-left: 10px;
+}
+
+.jackets-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    width: 306px;
+    padding: 15px;
+}
+
+.jackets-btn {
+    width: 246px;
+    background: #b9934c;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    behavior: url(border-radius.htc);
+    height: 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    margin: auto;
+    width: 95%;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-inp {
+    margin-top: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    behavior: url(border-radius.htc);
+    padding: 10px 20px;
+}
+
+.subscribe-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+    behavior: url(border-radius.htc);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
