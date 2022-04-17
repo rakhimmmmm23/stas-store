@@ -167,7 +167,6 @@ nav {
 }
 
 .popular-container {
-    max-width: 1300px;
     width: 95%;
     margin: auto;
 }
@@ -205,6 +204,7 @@ nav {
 
 .popular-flex {
     display: flex;
+    
 }
 
 .twin-title {
